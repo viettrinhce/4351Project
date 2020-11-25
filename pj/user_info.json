@@ -1,0 +1,21 @@
+{
+  "user_data" : [
+    {
+        "username": "hr1",
+        "password": "hr1",
+        "job": "hr"
+    },
+    {
+        "username": "hr2",
+        "password": "hr2",
+        "job": "hr"
+    },
+    {
+        "username": "ac2",
+        "password": "ac2",
+        "job": "ac"
+    }
+  ]
+}
+
+
