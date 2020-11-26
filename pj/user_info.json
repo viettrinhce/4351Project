@@ -3,17 +3,17 @@
     {
         "username": "hr1",
         "password": "hr1",
-        "job": "hr"
+        "job": ["hr","ac"]
     },
     {
         "username": "hr2",
         "password": "hr2",
-        "job": "hr"
+        "job": ["hr"]
     },
     {
         "username": "ac2",
         "password": "ac2",
-        "job": "ac"
+        "job": ["ac"]
     }
   ]
 }
