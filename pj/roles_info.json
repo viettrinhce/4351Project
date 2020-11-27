@@ -24,7 +24,7 @@
             "1": "New Hire On-boarding",
             "2": "Benefits",
             "3": "Payroll",
-            "4": "Off-boarding"
+            "4": "Off-boarding",
             "5": "HR Reports"}
       },
       { "Technology":{
@@ -32,7 +32,7 @@
             "1": "Application Monitoring",
             "2": "Tech Support",
             "3": "App Development",
-            "4": "App Admin"
+            "4": "App Admin",
             "5": "Release Management"}
       }
     ]
