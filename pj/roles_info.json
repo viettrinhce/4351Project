@@ -1,0 +1,20 @@
+{
+    "Category" : [
+      { "Support":{
+          "role": "ADMIN",
+          "1": "Manage User Accounts",
+          "2": "Assign Roles",
+          "3": "Help Desk"}
+      },
+      { "Finance":{
+            "role": "FINANCE_ADMIN",
+            "1": "Finance Reports",
+            "2": "Accounts Payable",
+            "3": "Accounts Receivable",
+            "4": "Tax"}
+      }
+    ]
+  }
+  
+  
+  
