@@ -7,11 +7,20 @@ $(document).ready(function() {
             
         };
         switch(aRole[key]) {
-            case "hr":
+            case "sp":
               jQuery("#portal_support").css("display", "block");
               break;
-            case "ac":
+            case "fn":
               jQuery("#portal_finance").css("display", "block");
+              break;
+            case "sl":
+              jQuery("#portal_sales").css("display", "block");
+              break;
+            case "hr":
+              jQuery("#portal_hr").css("display", "block");
+              break;
+              case "tn":
+              jQuery("#portal_tn").css("display", "block");
               break;
             default:
               // code block
