@@ -1,21 +1,29 @@
 {
   "user_data" : [
     {
-        "username": "hr1",
-        "password": "hr1",
-        "job": ["hr","ac"]
+        "username": "support",
+        "password": "support",
+        "job": ["sp"]
     },
     {
-        "username": "hr2",
-        "password": "hr2",
+        "username": "finance",
+        "password": "finance",
+        "job": ["fn"]
+    },
+    {
+        "username": "sales",
+        "password": "sales",
+        "job": ["sl"]
+    },
+    {
+        "username": "hr",
+        "password": "hr",
         "job": ["hr"]
     },
     {
-        "username": "ac2",
-        "password": "ac2",
-        "job": ["ac"]
+        "username": "technology",
+        "password": "technology",
+        "job": ["tn"]
     }
   ]
 }
-
-
