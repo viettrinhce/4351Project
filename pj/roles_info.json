@@ -12,9 +12,30 @@
             "2": "Accounts Payable",
             "3": "Accounts Receivable",
             "4": "Tax"}
+      },
+      { "Sales":{
+          "role": "SALES_ADMIN",
+          "1": "Sales Reports",
+          "2": "Sales Leads",
+          "3": "Sales Demo"}
+      },
+      { "HR":{
+            "role": "HR_ADMIN",
+            "1": "New Hire On-boarding",
+            "2": "Benefits",
+            "3": "Payroll",
+            "4": "Off-boarding"
+            "5": "HR Reports"}
+      },
+      { "Technology":{
+            "role": "Technology_ADMIN",
+            "1": "Application Monitoring",
+            "2": "Tech Support",
+            "3": "App Development",
+            "4": "App Admin"
+            "5": "Release Management"}
       }
     ]
   }
-  
   
   
