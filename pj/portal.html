@@ -1,93 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Portal Page</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="utils.js"></script>
-  <script src="portal_checkRole.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
-</head>
-<body>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>Portal</h1>
-  <p>Please choose your roles to proceed!</p> 
-</div>
-
-
-<div class="container" style="margin-top:30px">
-  <div class="row">
-      <div class="col">
+  <!DOCTYPE html> 
+  <html lang="en">  
+  <head>  
+    <title>Portal Page</title>  
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="utils.js"></script>  
+    <script src="portal_checkRole.js"></script> 
+    <style> 
+    .fakeimg {  
+      height: 200px;  
+      background: #aaa; 
+    } 
+    </style>  
+  </head> 
+  <body>  
+    
+  <div class="jumbotron text-center" style="margin-bottom:0"> 
+    <h1>Portal</h1> 
+    <p>Please choose your roles to proceed!</p>   
+  </div>  
+    
+    
+  <div class="container" style="margin-top:30px"> 
+    <div class="row"> 
+        <div class="col"> 
+        </div>  
+    
+        <div class="col-sm-8 col-md-6 col-lg-6 col-xl-6 bg-dark text-white">  
+          <a id="portal_support" style="display: none;" href="support.html" class="btn btn-primary" role="button">Go to Support page</a>  
+          <a id="portal_finance" style="display: none;" href="finance.html" class="btn btn-primary" role="button">Go to Finance page</a>  
+          <a id="portal_sales" style="display: none;" href="sales.html" class="btn btn-primary" role="button">Go to Sales page</a>  
+          <a id="portal_hr" style="display: none;" href="hr.html" class="btn btn-primary" role="button">Go to HR page</a> 
+          <a id="portal_tn" style="display: none;" href="technology.html" class="btn btn-primary" role="button">Go to Technology page</a> 
+    
+        </div>  
+    
+        <div class="col"> 
+       </div> 
+    </div>  
+  </div>  
+    
+  <div class="container" style="margin-top:30px"> 
+    <div class="row"> 
+      <div class="col-sm-4">  
+        <h2>About Me</h2> 
+        <h5>Photo of me:</h5> 
+        <div class="fakeimg">Fake Image</div> 
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p> 
+        <h3>Some Links</h3> 
+        <p>Lorem ipsum dolor sit ame.</p> 
+        <ul class="nav nav-pills flex-column">  
+          <li class="nav-item"> 
+            <a class="nav-link active" href="#">Active</a>  
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Link</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Link</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link disabled" href="#">Disabled</a>  
+          </li> 
+        </ul> 
+        <hr class="d-sm-none">  
+      </div>  
+      <div class="col-sm-8">  
+        <h2>Company News</h2> 
+        <h5>Cyber Breach, Nov 30th, 2020</h5> 
+        <div class="fakeimg">Fake Image</div> 
+        <p>Latest News</p>  
+        <p>A day after Vendor solved its network outage, the IT department revealed a far more serious problem: A massive phishing attack breached the company's data, exposing information about employees, including email addresses and passwords. Therefore, All employees are expected to update passwords by 12/01/20. </p> 
+        <br>  
+        <h2>Notifications</h2>  
+        <h5>Admin Report Deadline, Dec 4th, 2020</h5> 
+        <div class="fakeimg">Fake Image</div> 
+        <p>Report Update</p>  
+        <p>All admins must report to their respected supervisor by no later than December 4th. Every admin must send their annual report before reporting to their supervisor for the annual review. Accomplistmensts, team breifing and annual bonuses will be disccused during the review session.  </p>  
       </div>
-
-      <div class="col-sm-8 col-md-6 col-lg-6 col-xl-6 bg-dark text-white">
-        <a id="portal_support" style="display: none;" href="support.html" class="btn btn-primary" role="button">Go to Support page</a>
-        <a id="portal_finance" style="display: none;" href="finance.html" class="btn btn-primary" role="button">Go to Finance page</a>
-        <a id="portal_sales" style="display: none;" href="sales.html" class="btn btn-primary" role="button">Go to Sales page</a>
-        <a id="portal_hr" style="display: none;" href="hr.html" class="btn btn-primary" role="button">Go to HR page</a>
-        <a id="portal_tn" style="display: none;" href="technology.html" class="btn btn-primary" role="button">Go to Technology page</a>
-
-      </div>
-
-      <div class="col">
-     </div>
-  </div>
-</div>
-
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-</div>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
-
-</body>
-</html>
