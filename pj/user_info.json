@@ -24,6 +24,11 @@
         "username": "technology",
         "password": "technology",
         "job": ["tn"]
+    },
+    {
+        "username": "test",
+        "password": "test",
+        "job": ["tn","sp","hr"]
     }
   ]
 }

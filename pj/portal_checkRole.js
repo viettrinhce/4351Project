@@ -26,5 +26,7 @@ $(document).ready(function() {
               // code block
           }
     }
-    
+    var sAcc = localStorage.getItem("u_name");
+    jQuery("#account").text( sAcc );
+
 }); 
